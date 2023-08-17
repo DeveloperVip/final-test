@@ -1,0 +1,19 @@
+.itemTodo {
+  width: 50vw;
+  margin: 10px auto;
+  text-align: left;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.itemTodo > button {
+  border: none;
+  background-color: rgb(54, 218, 103);
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}

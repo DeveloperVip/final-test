@@ -1,0 +1,45 @@
+.all {
+  position: relative;
+  width: 50vw;
+  margin: auto;
+  text-align: left;
+}
+.all > form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all > form > .addTodo {
+  border-radius: 10px;
+  height: 45px;
+  width: 80%;
+  padding: 5px;
+  font-size: larger;
+  border: 1px solid gray;
+}
+.all > form > button {
+  border: none;
+  border-radius: 10px;
+  width: 15%;
+  height: 45px;
+}
+section {
+  margin-top: 20px;
+}
+section > .showTodo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section > .showTodo > input {
+  width: 40px;
+}
+section > .showTodo > label {
+  font-size: larger;
+}
+h2 {
+  color: blue;
+}
+.navLink > li > a:hover {
+  color: crimson;
+}
